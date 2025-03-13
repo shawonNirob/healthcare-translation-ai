@@ -22,7 +22,7 @@ The Healthcare Translation Backend is a robust API service built with FastAPI an
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/healthcare-translation-backend.git
+   git clone https://github.com/shawonNirob/healthcare-translation-backend.git
    cd healthcare-translation-backend
    ```
 
@@ -156,6 +156,8 @@ The Healthcare Translation Backend is a robust API service built with FastAPI an
 
 ### Common Issues
 
+### Common Issues
+
 1. **API Key Issues**
    - Ensure your OpenAI API key is valid and has sufficient credits
    - Check that the key is properly set in the `.env` file
@@ -180,9 +182,6 @@ The Healthcare Translation Backend is a robust API service built with FastAPI an
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 
