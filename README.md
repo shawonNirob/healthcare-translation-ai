@@ -189,8 +189,6 @@ The AI tools were primarily used for:
 
 ### Common Issues
 
-### Common Issues
-
 1. **API Key Issues**
    - Ensure your OpenAI API key is valid and has sufficient credits
    - Check that the key is properly set in the `.env` file
