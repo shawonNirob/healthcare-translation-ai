@@ -8,9 +8,12 @@ def get_llm_response(query: str, preferred_language: str) -> dict:
     # Log the received language for debugging
     logger.info(f"Received preferred language: {preferred_language}")
     
+    # Clean the API key by stripping whitespace and newlines
+    api_key = settings.OPENAI_API_KEY.strip()
+    
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {settings.OPENAI_API_KEY}"
+        "Authorization": f"Bearer {api_key}"
     }
     
     payload = {
