@@ -11,6 +11,39 @@ The Healthcare Translation Backend is a robust API service built with FastAPI an
 - **Error Handling**: Comprehensive error management and logging
 - **Docker Support**: Easy containerization for deployment
 
+## Technology Stack
+- **FastAPI**: High-performance Python web framework
+- **Python 3.9+**: Core programming language
+- **OpenAI API**: For advanced language model integration
+- **Pydantic**: For data validation and settings management
+- **Uvicorn**: ASGI server for serving the application
+- **Docker**: For containerization and deployment
+- **Loguru**: Enhanced logging capabilities
+
+## AI Tools Used
+This project was developed with assistance from the following AI tools:
+
+- **Claude 3.7 Sonnet**: Used for code generation, API design, and documentation. Claude helped implement the FastAPI routes, OpenAI integration, and error handling logic.
+
+- **OpenAI GPT-4**: Powers the core translation functionality through the OpenAI API, enhancing medical terminology in translations.
+
+The AI tools were primarily used for:
+- Designing efficient API endpoints and data schemas
+- Implementing secure OpenAI API integration
+- Optimizing error handling and logging
+- Generating comprehensive documentation
+- Suggesting Docker configuration improvements
+
+## Security Considerations
+- **API Key Protection**: OpenAI API keys are stored in environment variables, not in code
+- **Input Validation**: All API inputs are validated using Pydantic schemas
+- **Rate Limiting**: Implemented to prevent API abuse
+- **CORS Configuration**: Properly configured to allow only authorized origins
+- **Error Handling**: Structured error responses without exposing sensitive information
+- **Dependency Management**: Regular updates to patch security vulnerabilities
+- **Containerization**: Docker configuration follows security best practices
+- **Logging**: Comprehensive logging without exposing sensitive data
+
 ## Prerequisites
 - Python 3.9+
 - OpenAI API Key
