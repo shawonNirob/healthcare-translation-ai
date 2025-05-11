@@ -8,6 +8,4 @@ Translates medical terms and phrases with clinical precision.
 ![alt text](image-1.png)
 
 ## Prerequisites
-Python 3.9+
-OpenAI API Key
-Docker 
+Python 3.9+, FastAPI, OpenAI, Docker
