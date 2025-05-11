@@ -1,7 +1,5 @@
 ## HealthCare Translation
-Translates medical terms and phrases with clinical precision
-Handles multiple languages including Spanish, French, German, Bengali, and more
-Improves translations with precise clinical terminology
+Translates medical terms and phrases with clinical precision.
 
 ## Design
 ![alt text](image-2.png)
