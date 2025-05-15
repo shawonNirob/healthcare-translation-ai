@@ -1,4 +1,4 @@
-## HealthCare Translation
+## HealthCare Translation AI
 Translates medical terms and phrases with clinical precision.
 
 ## Design
